@@ -216,8 +216,6 @@ body {
 	display: flex;
 	margin-bottom: 40px;
 	box-shadow: 5px 5px #dad7cd;
-	min-height: 50%;
-	max-height: fit-content;
 	padding: 10px;
 }
 .services .services-content .srv i {
@@ -234,7 +232,6 @@ body {
 	color: #777;
 	font-weight: 300;
 	line-height: 1.8;
-	/* min-height: auto; */
 }
 .services .services-content .image {
 	grid-area: img;
@@ -255,16 +252,11 @@ body {
 	width: 260px;
 	border: 3px solid #dad7cd;
 }
-/* @media (max-width: 656px){
-	.services .services-content .srv p {
-		min-height: 60px;
+@media (min-width: 660px) {
+	.services .services-content .srv {
+		min-height: 50%;
 	}
 }
-@media (max-width: 991px){
-	.services .services-content .srv p {
-		min-height: 150px;
-	}
-} */
 @media (max-width: 1199px) {
 	.image-column {
 		display: none;
