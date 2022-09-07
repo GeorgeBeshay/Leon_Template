@@ -44,7 +44,7 @@ body {
 /* End Of Global Rules */
 /* Components */
 .special-heading {
-	color: #ebeced;
+	color: #bbbbbb;
 	font-size: 100px;
 	text-align: center;
 	font-weight: 800;
@@ -52,10 +52,11 @@ body {
 	margin: 0;
 }
 .special-heading + p {
-	margin: -40px 0px 0px;
+	margin: -30px 0px 0px;
 	text-align: center;
 	font-size: 20px;
 	color: #797979;
+	font-weight: bold;
 }
 @media (max-width: 767px) {
 	.special-heading {
