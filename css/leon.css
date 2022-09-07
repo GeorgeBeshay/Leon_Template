@@ -45,6 +45,7 @@ body {
 /* Components */
 .special-heading {
 	color: #bbbbbb;
+	opacity: 0.3;
 	font-size: 100px;
 	text-align: center;
 	font-weight: 800;
@@ -63,7 +64,7 @@ body {
 		font-size: 60px;
 	}
 	.special-heading + p {
-		margin: -30px 0 0;
+		margin: -20px 0 0;
 	}
 }
 /* End Of Components */
@@ -222,8 +223,8 @@ body {
 .services .services-content .srv {
 	display: flex;
 	margin-bottom: 40px;
-	box-shadow: 5px 5px #dad7cd;
-	padding: 10px;
+	box-shadow: 0px 0px 5px #dad7cd;
+	padding: 20px;
 }
 .services .services-content .srv i {
 	color: var(--main-color);
@@ -289,6 +290,7 @@ body {
 }
 .portfolio .portfolio-content .card {
 	background-color: white;
+	box-shadow: 0px 0px 5px #dad7cd;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -435,6 +437,14 @@ body {
 }
 .footer span {
 	font-weight: bold;
+	color: var(--main-color);
+}
+.footer .sign {
+	font-family: "Qwitcher Grypen", cursive;
+	font-size: 40px;
+}
+.footer .sign a {
+	text-decoration: none;
 	color: var(--main-color);
 }
 /* End Of Footer  */
